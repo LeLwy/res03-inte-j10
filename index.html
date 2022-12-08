@@ -11,22 +11,19 @@
 <body id="index">
     <header>
         <ul class="row">
-            <li class="col-4"><h1>Test BOOTSTRAP</h1></li>
-            <li class="col">
+            <li class="col-lg-4 col-md-6 col-sm-12"><h1>Test BOOTSTRAP</h1></li>
+            <li class="col-lg-4 col-md-6 col-sm-12">
                 <nav class="nav nav-pills nav-fill">
                   <a class="nav-item nav-link active" href="index.html">Accueil</a>
-                  <a class="nav-item nav-link" href="single.html">Dernier article</a>
                 </nav>
             </li>
         </ul>
     </header>
     <main>
-        <section id="latest-posts" class="container-lg">
-            <h2>Les dernières publications</h2>
-            <ul class="row">
-                <li class="col">
-                </li>
-                <li class="col">
+        <section id="latest-posts" class="container-lg d-flex flex-column align-items-center">
+            <h2 class="text-center">Les dernières publications</h2>
+            <ul class="row d-flex justify-content-center">
+                <li class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center">
                     <article class="card" style="width: 18rem;">
                         <header>
                             <img class="card-img-top" src="https://picsum.photos/id/164/200/150" alt="Card image cap">
@@ -38,7 +35,7 @@
                         </section>
                     </article>
                 </li>
-                <li class="col">
+                <li class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center">
                     <article class="card" style="width: 18rem;">
                         <header>
                             <img class="card-img-top" src="https://picsum.photos/id/165/200/150" alt="Card image cap">
@@ -50,7 +47,7 @@
                         </section>
                     </article>
                 </li>
-                <li class="col">
+                <li class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center">
                     <article class="card" style="width: 18rem;">
                         <header>
                             <img class="card-img-top" src="https://picsum.photos/id/166/200/150" alt="Card image cap">
@@ -62,15 +59,7 @@
                         </section>
                     </article>
                 </li>
-                <li class="col">
-                </li>
-            </ul>
-            <ul class="row">
-                <li class="col">
-                </li>
-                <li class="col">
-                </li>
-                <li class="col">
+                <li class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center">
                     <article class="card" style="width: 18rem;">
                         <header>
                             <img class="card-img-top" src="https://picsum.photos/id/167/200/150" alt="Card image cap">
@@ -82,7 +71,7 @@
                         </section>
                     </article>
                 </li>
-                <li class="col">
+                <li class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center">
                     <article class="card" style="width: 18rem;">
                         <header>
                             <img class="card-img-top" src="https://picsum.photos/id/168/200/150" alt="Card image cap">
@@ -94,19 +83,15 @@
                         </section>
                     </article>
                 </li>
-                <li class="col">
-                </li>
-                <li class="col">
-                </li>
             </ul>
         </section>
-        <section id="all-posts" class="container-lg">
-            <h2>Toutes les publications</h2>
+        <section id="all-posts" class="container-lg px-5">
+            <h2 class="text-center">Toutes les publications</h2>
             <table class="table table-hover">
               <thead>
                 <tr>
-                  <th scope="col-1">#</th>
-                  <th scope="col-5">Title</th>
+                  <th scope="col">#</th>
+                  <th scope="col">Title</th>
                   <th scope="col">Date</th>
                   <th scope="col">Comments</th>
                   <th scope="col">Views</th>

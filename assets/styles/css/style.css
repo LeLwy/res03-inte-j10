@@ -1,11 +1,24 @@
-html > body > header > nav > a {
-  color: white;
+html > body {
+  overflow-x: 0;
+}
+html > body ul > li {
+  list-style-type: none;
+}
+html > body > header > ul > li > nav > a {
   font-weight: bold;
   font-size: 1.5rem;
-  background-color: blue;
 }
-html > body > header > nav > a:hover {
+html > body > header > ul > li > nav > a:hover {
   color: purple;
+}
+html > body#index > main > section {
+  padding: 2vh 0;
+}
+html > body#index > main > section > h2 {
+  margin: 3vh 0;
+}
+html > body#single > main > section#single-illustration > figure > img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

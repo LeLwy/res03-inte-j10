@@ -1,21 +1,68 @@
 html{
     
     &>body{
+           
+        overflow-x: 0;
+                
+        ul{
+            
+            &>li{
+                
+                list-style-type: none;
+            }
+        }
         
         &>header{
             
-            &>nav{
+            &>ul{
                 
-                &>a{
+                &>li{
                     
-                    color: white;
-                    font-weight: bold;
-                    font-size: 1.5rem;
-                    background-color: blue;
+                    &>nav{
+                
+                        &>a{
+                            
+                            font-weight: bold;
+                            font-size: 1.5rem;
+                            
+                            &:hover{
+                                
+                                color: purple;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        &#index{
+            
+            &>main{
+                
+                &>section{
                     
-                    &:hover{
+                    padding: 2vh 0;
+                    
+                    &>h2{
                         
-                        color: purple;
+                        margin: 3vh 0;
+                    }
+                }
+            }
+        }
+        
+        &#single{
+            
+            &>main{
+                
+                &>section#single-illustration{
+                    
+                    &>figure{
+                        
+                        &>img{
+                            
+                            width: 100%;
+                        }
                     }
                 }
             }
