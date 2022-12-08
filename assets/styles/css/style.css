@@ -1,0 +1,11 @@
+html > body > header > nav > a {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: blue;
+}
+html > body > header > nav > a:hover {
+  color: purple;
+}
+
+/*# sourceMappingURL=style.css.map */
